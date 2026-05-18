@@ -1,0 +1,62 @@
+/* Custom styles for Deer Hunt */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand img:hover {
+    transform: scale(1.1);
+}
+
+.custom-footer {
+    margin-top: auto;
+}
+
+.card {
+    background-color: #333333 !important;
+    color: white !important;
+   
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Category sidebar styling */
+.col-md-2 .card {
+    position: sticky;
+    top: 20px;
+}
+
+.col-md-2 .card-title {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.col-md-2 ul li {
+    margin-bottom: 8px;
+    padding: 5px 0;
+}
+
+.col-md-2 ul li a {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.col-md-2 ul li a:hover {
+    background-color: #555;
+    color: #fff !important;
+    transform: translateX(5px);
+}
